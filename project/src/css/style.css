@@ -105,12 +105,21 @@ body {
   border-radius: 5px;
 }
 
+.section {
+  padding: 70px 0 80px 0;
+}
+
+.section-title {
+  margin: 0 0 40px 0;
+}
+
 .card {
   text-decoration: none;
   color: #111238;
   background-color: #F2F3F6;
   border-radius: 10px;
   transition: background .2s, color .2s;
+  padding: 35px;
 }
 
 .card:hover {
@@ -126,4 +135,5 @@ body {
   margin: 0 0 15px 0;
   fill: #111238;
   transition: fill .2s;
+  max-width: 24px;
 }
